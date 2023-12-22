@@ -12,4 +12,12 @@ Vue.createApp({
         message: 'Hello World!'
       }
     }
-  }).mount('#app')
+}).mount('#app')
+
+Vue.createApp({
+    data() {
+      return {
+        urlImg: "https://unsplash.it/600/300?"
+      };
+    }
+}).mount('#imgBonus')
